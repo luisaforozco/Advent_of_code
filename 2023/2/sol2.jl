@@ -49,7 +49,7 @@ function get_info_game(game::AbstractString)
 end
 
 sol_example_1 = sol_part_1("./input_example.txt")
-sol_puzzele_part_1 = sol_part_1("./input_puzzle.txt")
+sol_puzzle_part_1 = sol_part_1("./input_puzzle.txt")
 println(" Part 1, example: $sol_example_1 \n Part 1, puzzle: $sol_puzzle_part_1")
 
 function sol_part_2(filename::AbstractString)
@@ -87,5 +87,5 @@ function get_power(game::AbstractString)
 end
 
 sol_example_2 = sol_part_2("./input_example.txt")
-sol_puzzele_part_2 = sol_part_2("./input_puzzle.txt")
-println(" Part 2, example: $sol_example_2 \n Part 2, puzzle: $sol_puzzele_part_2")
+sol_puzzle_part_2 = sol_part_2("./input_puzzle.txt")
+println(" Part 2, example: $sol_example_2 \n Part 2, puzzle: $sol_puzzle_part_2")
