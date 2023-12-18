@@ -6,7 +6,6 @@ Reads the inputs of the puzzle
 false for puzzle 2 in which is a single race.
 """
 function read_races_info(input_file, with_spaces = true)
-    
     lines = readlines(input_file)
     times = []
     distances = []
@@ -62,6 +61,7 @@ function sol_part_1(input_file)
     return bf_number_of_ways_to_beat_record(times, distances)
 end
 
+sol_example_1 = sol_part_1("./input_example.txt")
 sol_puzzle_part_1 = sol_part_1("./input_puzzle.txt")
 println(" Part 1, example: $sol_example_1 \n Part 1, puzzle: $sol_puzzle_part_1")
 
@@ -72,5 +72,6 @@ function sol_part_2(input_file)
     return bf_number_of_ways_to_beat_record(times, distances)
 end
 
+sol_example_2 = sol_part_2("./input_example.txt")
 sol_puzzle_part_2 = sol_part_2("./input_puzzle.txt")
 println(" Part 2, example: $sol_example_2 \n Part 2, puzzle: $sol_puzzle_part_2")
