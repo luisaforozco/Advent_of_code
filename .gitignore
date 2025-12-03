@@ -1,7 +1,9 @@
 **/.vscode
 **/__pycache__
+**/.DS_Store
 # input puzzle 2023
 **/input_puzzle.txt
+**/input_example.txt
 # imput puzzle 2022
 **/input.txt
 2023/7
