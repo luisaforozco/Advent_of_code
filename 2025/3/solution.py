@@ -1,5 +1,3 @@
-import heapq
-
 def solution_part_1(data):
     joltage = 0 
     for line in data.splitlines():
@@ -36,5 +34,5 @@ if __name__ == "__main__":
     with open("3/input.txt", "r") as f:
         data = f.read()
 
-    #print(f"Part 1: Total output joltage is {solution_part_1(data)}")
+    print(f"Part 1: Total output joltage is {solution_part_1(data)}")
     print(f"Part 2: Result is {solution_part_2(data)}")
